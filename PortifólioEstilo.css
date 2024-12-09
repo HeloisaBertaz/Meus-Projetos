@@ -1,0 +1,134 @@
+body{
+    margin: 0;
+    background-color: rgb(230, 213, 213);
+    box-sizing: border-box;
+}
+
+header{
+    color:rgb(122, 23, 23);
+    background-color: #d47c5c;
+    text-align: center;
+    height: 60px;
+    padding: 50px;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin: auto;
+}
+
+li, a{
+    text-decoration: none;
+    text-align: center;
+    padding: 40px 60px;
+    background-color: rgb(230, 213, 213);
+    width: 70vh;
+    font-size: larger;
+}
+
+a, a:link{
+    border: solid 5px rgb(122, 23, 23);;
+    padding: 8px 16px;
+    color: black;
+    background-color: white;
+}
+
+li{
+    float: left;
+
+}
+a:hover{
+    color: white;
+    background-color: black;
+}
+
+.Paragrafo{
+    text-align: center;
+    display: block;
+    font-size: 25px;
+}
+p{
+    padding: 20px 20px;
+}
+
+#estudo{
+    text-align: center;
+    font-size: 30px;
+    padding: 70px;
+}
+
+input, label{
+    padding: 8px 8px;
+    margin: 8px 10px;
+    width: 1350px;
+    border-radius: 8px;
+    font-family: "Parkinsans", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+#message{
+    vertical-align: text-top;
+}
+
+#message{
+    display: flex;
+}
+
+button[type=submit]{
+    border: none;
+    color: black;
+    background-color: aliceblue;
+    margin: 10px;
+    height: 30px;
+    margin-top: 50px;
+    padding:16px 30px 30px;
+    padding-bottom: 30px;
+    border-radius: 8px;
+}
+
+button:hover{
+    color: aliceblue;
+    background-color: black;
+    border-radius: 8px;
+}
+
+textarea{
+    padding-bottom: 100px;  
+    width: 60%;
+    border-radius: 8px;
+    font-family: "Parkinsans", sans-serif;
+    font-weight: 450;
+    font-size: 20px;
+    margin-left: 25px;
+}   
+.portfolio{
+    box-sizing: border-box;
+    margin: 0;
+    text-decoration: none;
+    font-family: "PT Serif", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 25px;
+}
+
+.Figma{
+    margin: 70px;
+    padding: 10px;
+}
+
+.Kodular{
+    margin: 70px;
+    padding: 9px;
+}
+
+.lpa{
+    margin: 70px;
+    padding: 8px;
+}
+
+.casos{
+    margin: 70px;
+    padding: 7px;
+}
